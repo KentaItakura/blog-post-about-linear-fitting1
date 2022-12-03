@@ -26,12 +26,19 @@ https://udemy.benesse.co.jp/data-science/data-analysis/regression-analysis.html
 
 よく用いられる手法ではありますが、それを実際に、導出し、自分の手で（プログラミングやExcelを使って）検算したことのある人は、
 
-あまり多くないかもしれません。ここでは、自分の勉強のまとめとして、線形回帰の中でも、1つの変数を用いた、単回帰の導出を行い、さらに、複数の方法での実装（プログラミング）により自身の理解が正しいことを確認します。
+あまり多くないかもしれません。ここでは、自分の勉強のまとめとして、線形回帰の中でも、1つの変数を用いた、単回帰の導出を行い、さらに、複数の方法での実装（プログラミング）により自身の理解が正しいことを確認します。なお、実装による確認などを通して、検算はしていますが、間違いなどあるかもしれません。その場合は教えていただけますと幸いです。
 
 この記事の原稿や、コード、検算用のExcelファイルは以下のページに格納されています。勉強の助けになれば幸いです。
 
 [https://github.com/KentaItakura/blog-post-about-linear-fitting1](https://github.com/KentaItakura/blog-post-about-linear-fitting1)
 
+また、線形回帰に関しては、本記事の内容は、最初の一歩のみを紹介しています。線形回帰を実際の研究や実務に利用したい方は、
+
+以下の動画が大変参考になると思います。
+
+[https://www.youtube.com/watch?v=VZ-84t2U1oQ\&t=1638s](https://www.youtube.com/watch?v=VZ-84t2U1oQ&t=1638s)
+
+  
 # 2 解析方法
 
 単回帰分析では、データによくあてはまる直線を考えます。以下に、そのイメージを示します。
@@ -487,6 +494,8 @@ https://takmin.hatenablog.com/entry/2020/09/17/135353
 
 =====引用終了=====
 
+https://www.amazon.co.jp/%E5%85%A5%E9%96%80-%E7%B5%B1%E8%A8%88%E5%AD%A6-%E2%88%92%E6%A4%9C%E5%AE%9A%E3%81%8B%E3%82%89%E5%A4%9A%E5%A4%89%E9%87%8F%E8%A7%A3%E6%9E%90%E3%83%BB%E5%AE%9F%E9%A8%93%E8%A8%88%E7%94%BB%E6%B3%95%E3%81%BE%E3%81%A7%E2%88%92-%E6%A0%97%E5%8E%9F-%E4%BC%B8%E4%B8%80/dp/4274068552
+
 # 9. 簡単なまとめ
 
 この記事では、1変数のみの回帰直線の係数の計算方法（単回帰による回帰直線の傾きと切片の計算方法）についてまとめました。
@@ -515,9 +524,9 @@ https://ictsr4.com/py/r0131.html
 
 **東京大学教養学部統計学教室  (編集)　統計学入門 (基礎統計学Ⅰ) **
 
-https://www.amazon.co.jp/gp/product/4130420658/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i0
+[https://www.amazon.co.jp/gp/product/4130420658/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i0](https://www.amazon.co.jp/gp/product/4130420658/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i0)
 
-**最小二乗法① 数学的性質　経済統計分析 （2013年度秋学期） **
+**最小二乗法① 数学的性質　経済統計分析 (2013年度秋学期)**
 
 \href{http://www2.toyo.ac.jp/~mihira/keizaitoukei2014/ols1.pdf}{http://www2.toyo.ac.jp/\textasciitilde{}mihira/keizaitoukei2014/ols1.pdf}
 
