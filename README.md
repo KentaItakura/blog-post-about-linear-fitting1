@@ -97,7 +97,7 @@ https://univ-juken.com/gosei-kansu
 
 式(2)をaで微分すると、<img src="https://latex.codecogs.com/gif.latex?\inline&space;x_i"/>であるため、(3)は以下のように展開できます。
 
-<img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;E}{\partial&space;a}\;=\;"/>$$\frac{1}{2}\sum_{i\;=\;1}^N -2\left(y_i -X\right)x_i =\sum_{i\;=\;1}^N -\left(y_i -{\textrm{ax}}_i -b\right)x_i$$
+<img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;E}{\partial&space;a}\;=\frac{1}{2}\sum_{i\;=\;1}^N&space;-2\left(y_i&space;-X\right)x_i&space;=\sum_{i\;=\;1}^N&space;-\left(y_i&space;-{\textrm{ax}}_i&space;-b\right)x_i&space;\;"/>
 
 ...(4)
 
@@ -129,7 +129,7 @@ https://univ-juken.com/gosei-kansu
 
 (2)式において、bにて微分を行うと、1になるため、
 
-<img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;E}{\partial&space;b}\;=\;"/>$$\frac{1}{2}\sum_{i\;=\;1}^N -2\left(y_i -X\right)\left(1\right)=\sum_{i\;=\;1}^N -\left(y_i -{\textrm{ax}}_i -b\right)$$
+<img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;E}{\partial&space;b}\;=\;\frac{1}{2}\sum_{i\;=\;1}^N&space;-2\left(y_i&space;-X\right)\left(1\right)=\sum_{i\;=\;1}^N&space;-\left(y_i&space;-{\textrm{ax}}_i&space;-b\right)"/>
 
 ...(7)
 
@@ -187,7 +187,7 @@ https://univ-juken.com/gosei-kansu
 
 さらに、aについてまとめて、
 
-<img src="https://latex.codecogs.com/gif.latex?a\left(\sum_{i\;=\;1}^N&space;{x_i&space;}^2&space;-\frac{1}{N}{\left(\sum_{i\;=\;1}^N&space;x_i&space;\;\right)}^2&space;\right)\;=\;"/>$$\sum_{i\;=\;1}^N x_i y_i \;-\frac{1}{N}\sum_{i\;=\;1}^N x_i \;\sum_{i\;=\;1}^N y_i$$
+<img src="https://latex.codecogs.com/gif.latex?a\left(\sum_{i\;=\;1}^N&space;{x_i&space;}^2&space;-\frac{1}{N}{\left(\sum_{i\;=\;1}^N&space;x_i&space;\;\right)}^2&space;\right)\;=\sum_{i\;=\;1}^N&space;x_i&space;y_i&space;\;-\frac{1}{N}\sum_{i\;=\;1}^N&space;x_i&space;\;\sum_{i\;=\;1}^N&space;y_i"/>
 
 ...(16)
 
@@ -342,13 +342,7 @@ b = 50.2237
 
 逆行列を用いて、aとbは以下のように求めることができます。
 
-<img src="https://latex.codecogs.com/gif.latex?\left\lbrack&space;\begin{array}{c}&space;a\\&space;b&space;\end{array}\right\rbrack&space;=\;"/>$${\left\lbrack \begin{array}{cc}
-\sum_{i\;=\;1}^N {x_i }^2  & \sum_{i\;=\;1}^N x_i \;\;\\
-\sum_{i\;=\;1}^N x_i  & \sum_{i\;=\;1}^N 1\;
-\end{array}\right\rbrack }^{-1} \left\lbrack \begin{array}{c}
-\sum_{i\;=\;1}^N x_i y_i \;\\
-\sum_{i\;=\;1}^N y_i 
-\end{array}\right\rbrack \;$$
+<img src="https://latex.codecogs.com/gif.latex?\left\lbrack&space;\begin{array}{c}&space;a\\&space;b&space;\end{array}\right\rbrack&space;={\left\lbrack&space;\begin{array}{cc}&space;\sum_{i\;=\;1}^N&space;{x_i&space;}^2&space;&space;&&space;\sum_{i\;=\;1}^N&space;x_i&space;\;\;\\&space;\sum_{i\;=\;1}^N&space;x_i&space;&space;&&space;\sum_{i\;=\;1}^N&space;1\;&space;\end{array}\right\rbrack&space;}^{-1}&space;\left\lbrack&space;\begin{array}{c}&space;\sum_{i\;=\;1}^N&space;x_i&space;y_i&space;\;\\&space;\sum_{i\;=\;1}^N&space;y_i&space;&space;\end{array}\right\rbrack&space;\;"/>$$\;$$
 
 ...(20)
 
@@ -388,7 +382,7 @@ ab = 2x1
 
 <img src="https://latex.codecogs.com/gif.latex?y=a\;\left(x-\frac{1}{N}\sum_{i\;=\;1}^N&space;x_i&space;\;\right)+\frac{1}{N}\sum_{i\;=\;1}^N&space;y_i"/>
 
-...(21)
+...(22)
 
 となる。
 
@@ -422,7 +416,7 @@ https://corvus-window.com/all_residual-plot/
 
 <img src="https://latex.codecogs.com/gif.latex?\sum_{i\;=\;1}^N&space;\left.{\left(y\right.}_i&space;-ax_i&space;-b\right)=0"/>
 
-...(22)
+...(23)
 
 という式を得ることができました。
 
@@ -440,7 +434,7 @@ https://corvus-window.com/all_residual-plot/
 
 <img src="https://latex.codecogs.com/gif.latex?\sum_{i\;=\;1}^N&space;\left.{\left(y\right.}_i&space;-ax_i&space;-b\right)x_i&space;=0"/>
 
-...(23)
+...(24)
 
 つまり、回帰残差とxの値の内積がゼロであり、直交しているということを示しています。
 
